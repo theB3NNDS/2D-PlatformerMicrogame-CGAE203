@@ -16,8 +16,9 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private LayerMask jumpableGround;
 
-    private enum MovementState { idle, running, jumping, falling, double_jump };
+    private enum MovementState { idle, running, jumping, falling, double_jump, fasterRunning };
     private bool doubleJump = true;
+    private bool heldRun = false;
     private int jumpcounter = 0;
 
     // Start is called before the first frame update
@@ -32,10 +33,16 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        MovementState movement;
-
         dirX = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+
+        if (Input.GetButton("Fire3") && IsGrounded())
+        {
+            rb.velocity = new Vector2(dirX * (moveSpeed * 1.5f), rb.velocity.y);
+            heldRun = true;
+        }
+        else
+            heldRun = false;
         
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
@@ -80,6 +87,9 @@ public class PlayerMovement : MonoBehaviour
 
         if (jumpcounter == 1)
             state = MovementState.double_jump;
+
+        if (heldRun == true)
+            state = MovementState.fasterRunning;
         
         anim.SetInteger("state", (int)state);
 

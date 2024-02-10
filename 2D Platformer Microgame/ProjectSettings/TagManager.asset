@@ -43,6 +43,18 @@ TagManager:
   - name: Background
     uniqueID: 1385716381
     locked: 0
+  - name: decoBack2
+    uniqueID: 3581513791
+    locked: 0
+  - name: decoBack1
+    uniqueID: 337646583
+    locked: 0
+  - name: Terrain3
+    uniqueID: 761369615
+    locked: 0
+  - name: Terrain2
+    uniqueID: 2165666213
+    locked: 0
   - name: Terrain
     uniqueID: 62022539
     locked: 0

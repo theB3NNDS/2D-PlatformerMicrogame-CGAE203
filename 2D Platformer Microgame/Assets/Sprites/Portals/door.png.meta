@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f4857fb66f5484c4f9110575ab81a598
+guid: 1630f8037694be148add6341392c747b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: slime_red_0
+      name: door_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ec9212c6f2b5a458483d5279e1bb87
-      internalID: -1904340723
+      spriteID: 054a5f8472c736a43bbd58a02ce75225
+      internalID: 2085731418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_red_1
+      name: door_1
       rect:
         serializedVersion: 2
         x: 16
-        y: 16
+        y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2b971a253407544c815de78405b7180
-      internalID: -1419435326
+      spriteID: 29def9ac0844c8747b6b04028645a754
+      internalID: -426469703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_red_2
+      name: door_2
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
+        y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a44f93b9a31aa5489861aab98e98046
-      internalID: -1386838977
+      spriteID: 1c045a6b83af5ab409cd85591ed0ce03
+      internalID: -1345102068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_red_3
+      name: door_3
       rect:
         serializedVersion: 2
         x: 48
-        y: 16
+        y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,41 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0aa481d5cfcadd47959897e150fed54
-      internalID: -791940524
+      spriteID: 494de3e1c1d355e4e87e7338881008a1
+      internalID: 1979071030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: slime_red_4
+      name: door_4
       rect:
         serializedVersion: 2
         x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65ff9ce158a01db459b208992b262e43
-      internalID: 713633584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_red_5
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
         width: 16
-        height: 16
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,29 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7f2b0529792c3c439d758fe8fe98bda
-      internalID: 1376829313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: slime_red_6
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b6f594430f27f84d85bf97f60bac097
-      internalID: -586016226
+      spriteID: fb444a0fe9ae30f4f92eb1381fb750ca
+      internalID: 1001285679
       vertices: []
       indices: 
       edges: []
@@ -262,13 +220,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      slime_red_0: -1904340723
-      slime_red_1: -1419435326
-      slime_red_5: 1376829313
-      slime_red_6: -586016226
-      slime_red_3: -791940524
-      slime_red_4: 713633584
-      slime_red_2: -1386838977
+      door_1: -426469703
+      door_3: 1979071030
+      door_2: -1345102068
+      door_0: 2085731418
+      door_4: 1001285679
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
